@@ -1,3 +1,0 @@
-# personalWebSite
-
-Your WebSite

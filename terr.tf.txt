@@ -1,0 +1,11 @@
+provider "aws" {
+  access_key = "AKIARCLXFB63RU62XN7I"
+  secret_key = "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"
+  region     = "ap-south-1"
+}
+resource "aws_instance" "jenk" {
+  ami           = "ami-0620d12a9cf777c87"
+  instance_type = "t2.micro"
+}
+
+
